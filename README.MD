@@ -5,12 +5,12 @@
 
 效果图：
 
-<img src = "screenshots/Screenshot0.png" width = "540px" height="960px"/>
-<img src = "screenshots/Screenshot1.png" width = "540px" height="960px"/>
-<img src = "screenshots/Screenshot2.png" width = "540px" height="960px"/>
-<img src = "screenshots/Screenshot3.png" width = "540px" height="960px"/>
-<img src = "screenshots/Screenshot4.png" width = "540px" height="960px"/>
-<img src = "screenshots/Screenshot5.png" width = "540px" height="960px"/>
+<img src = "screenshots/Screenshot0.png" width = "300px" height="533px"/>
+<img src = "screenshots/Screenshot1.png" width = "300px" height="533px"/>
+<img src = "screenshots/Screenshot2.png" width = "300px" height="533px"/>
+<img src = "screenshots/Screenshot3.png" width = "300px" height="533px"/>
+<img src = "screenshots/Screenshot4.png" width = "300px" height="533px"/>
+<img src = "screenshots/Screenshot5.png" width = "300px" height="533px"/>
 
 使用方法：
 Grab via maven
