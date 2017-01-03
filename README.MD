@@ -31,63 +31,64 @@ dependencies {
 ...
 
 布局代码：
+
 ...xml
-                <com.smart.colorview.normal.CircleColorView
-                xmlns:circle="http://schemas.android.com/apk/res-auto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                circle:circleColor="#9258c2"
-                circle:innerStrokeDividerWidth="6dp"
-                circle:innerStrokeWidth="0dp"
-                circle:innerType="inner"
-                circle:normalUseOutline="true"
-                circle:outlineStrokeColor="#9258c2"
-                circle:outlineStrokeWidth="2dp"
-                circle:selectUseFrame="false"
-                circle:selectUseOutline="true"/>
+   <com.smart.colorview.normal.CircleColorView
+   xmlns:circle="http://schemas.android.com/apk/res-auto"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   circle:circleColor="#9258c2"
+   circle:innerStrokeDividerWidth="6dp"
+   circle:innerStrokeWidth="0dp"
+   circle:innerType="inner"
+   circle:normalUseOutline="true"
+   circle:outlineStrokeColor="#9258c2"
+   circle:outlineStrokeWidth="2dp"
+   circle:selectUseFrame="false"
+   circle:selectUseOutline="true"/>
 ...
 java代码：
 ...java
-        CircleColorModel circleColorModel = new CircleColorModel();
-        circleColorModel.setCircleColor(0xff9258c2);
-        circleColorModel.setSelectUseOutline(true);
-        circleColorModel.setOutlineStrokeWidth(4);
-        circleColorModel.setOutlineStrokeColor(0xff9258c2);
-        circleColorModel.setInnerType(CircleColorView.InnerType.INNER);
-        circleColorModel.setInnerStrokeWidth(0);
-        circleColorModel.setInnerStrokeDividerWidth(14);
-        circleColorModel.setCircleSelected(true);
-        mCircleColorView.setCircleColorModel(circleColorModel);
+    CircleColorModel circleColorModel = new CircleColorModel();
+    circleColorModel.setCircleColor(0xff9258c2);
+    circleColorModel.setSelectUseOutline(true);
+    circleColorModel.setOutlineStrokeWidth(4);
+    circleColorModel.setOutlineStrokeColor(0xff9258c2);
+    circleColorModel.setInnerType(CircleColorView.InnerType.INNER);
+    circleColorModel.setInnerStrokeWidth(0);
+    circleColorModel.setInnerStrokeDividerWidth(14);
+    circleColorModel.setCircleSelected(true);
+    mCircleColorView.setCircleColorModel(circleColorModel);
 ...
 布局代码：
 ...xml
-                <com.smart.colorview.normal.RectangleColorView
-                xmlns:rectangle='http://schemas.android.com/apk/res-auto'
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                rectangle:rectOutlineStrokeWidth="0dp"
-                rectangle:rectShowTick="true"
-                rectangle:rectTickBackgroundColor="#fadb71"
-                rectangle:rectTickDirection="rightBottom"
-                rectangle:rectTickStrokeColor="#ffffff"
-                rectangle:rectTickStrokeWidth="2dp"
-                rectangle:rectTickType="auto"
-                rectangle:rectangleColor="#9258c2"
-                rectangle:rectangleCornerRadius="8dp"
-                rectangle:rectangleSelected="true"/>
+    <com.smart.colorview.normal.RectangleColorView
+    xmlns:rectangle='http://schemas.android.com/apk/res-auto'
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    rectangle:rectOutlineStrokeWidth="0dp"
+    rectangle:rectShowTick="true"
+    rectangle:rectTickBackgroundColor="#fadb71"
+    rectangle:rectTickDirection="rightBottom"
+    rectangle:rectTickStrokeColor="#ffffff"
+    rectangle:rectTickStrokeWidth="2dp"
+    rectangle:rectTickType="auto"
+    rectangle:rectangleColor="#9258c2"
+    rectangle:rectangleCornerRadius="8dp"
+    rectangle:rectangleSelected="true"/>
 ...
 java代码
 ...java
-        RectangleColorModel rectangleColorModel = new RectangleColorModel();
-        rectangleColorModel.setRectangleColor(0xff9258c2);
-        rectangleColorModel.setRectangleColorRadius(26);
-        rectangleColorModel.setRectTickStrokeWidth(4);
-        rectangleColorModel.setRectTickStrokeColor(0xffffffff);
-        rectangleColorModel.setRectTickBackgroundColor(0xfffadb71);
-        rectangleColorModel.setTickDirection(RectangleColorView.TickDirection.RIGHT_BOTTOM);
-        rectangleColorModel.setRectShowTick(true);
-        rectangleColorModel.setRectSelected(true);
-        mRectangleColorView.setRectangleColorModel(rectangleColorModel);
+    RectangleColorModel rectangleColorModel = new RectangleColorModel();
+    rectangleColorModel.setRectangleColor(0xff9258c2);
+    rectangleColorModel.setRectangleColorRadius(26);
+    rectangleColorModel.setRectTickStrokeWidth(4);
+    rectangleColorModel.setRectTickStrokeColor(0xffffffff);
+    rectangleColorModel.setRectTickBackgroundColor(0xfffadb71);
+    rectangleColorModel.setTickDirection(RectangleColorView.TickDirection.RIGHT_BOTTOM);
+    rectangleColorModel.setRectShowTick(true);
+    rectangleColorModel.setRectSelected(true);
+    mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 .....
 
 
