@@ -5,12 +5,12 @@
 
 效果图：
 
-    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot0.png" width = "540" height="960">
-    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot1.png" width = "540" height="960">
-    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot2.png" width = "540" height="960">
-    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot3.png" width = "540" height="960">
-    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot4.png" width = "540" height="960">
-    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot5.png" width = "540" height="960">
+<img src = "screenshots/Screenshot0.png" width = "540" height="960"/>
+<img src = "screenshots/Screenshot1.png" width = "540" height="960"/>
+<img src = "screenshots/Screenshot2.png" width = "540" height="960"/>
+<img src = "screenshots/Screenshot3.png" width = "540" height="960"/>
+<img src = "screenshots/Screenshot4.png" width = "540" height="960"/>
+<img src = "screenshots/Screenshot5.png" width = "540" height="960"/>
 
 使用方法：
 Grab via maven
@@ -60,6 +60,8 @@ circleColorModel.setInnerStrokeDividerWidth(14);
 circleColorModel.setCircleSelected(true);
 mCircleColorView.setCircleColorModel(circleColorModel);
 ```
+效果：
+<img src="screenshots/xiaoguo1.png"/>
 布局代码：
 ```xml
 <com.smart.colorview.normal.RectangleColorView
@@ -90,6 +92,7 @@ rectangleColorModel.setRectShowTick(true);
 rectangleColorModel.setRectSelected(true);
 mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 ```
-
+效果：
+<img src="screenshots/xiaoguo2.png"/>
 
 如果喜欢，欢迎star一下，您的star将是我开源路上永久的动力～～
