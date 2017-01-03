@@ -95,6 +95,6 @@ mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 效果：
 <img src="screenshots/xiaoguo2.png"/>
 
-如果在使用过程中遇到什么问题，欢迎[issue](https://github.com/miaolingzi/SmartColorView/issues)告我，我将全力为你解决～～
+如果在使用过程中遇到什么问题，欢迎[issue](https://github.com/miaolingzi/SmartColorView/issues)告诉我，我将全力为你解决～～
 
 如果喜欢，欢迎star一下，您的star将是我开源路上永久的动力～～
