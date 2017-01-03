@@ -13,7 +13,7 @@
 <img src = "screenshots/Screenshot5.png" width = "300px" height="533px"/>
 
 使用方法：
-Grab via maven
+maven
 
 ```xml
 <dependency>
