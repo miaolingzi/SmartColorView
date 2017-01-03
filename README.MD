@@ -28,11 +28,11 @@ or gradle
 dependencies {
     compile 'com.smart.colorview:colorview:1.1.1'
 }
-...
+```
 
 布局代码：
 
-...xml
+```xml
 <com.smart.colorview.normal.CircleColorView
 xmlns:circle="http://schemas.android.com/apk/res-auto"
 android:layout_width="wrap_content"
@@ -46,9 +46,9 @@ circle:outlineStrokeColor="#9258c2"
 circle:outlineStrokeWidth="2dp"
 circle:selectUseFrame="false"
 circle:selectUseOutline="true"/>
-...
+```
 java代码：
-...java
+```java
 CircleColorModel circleColorModel = new CircleColorModel();
 circleColorModel.setCircleColor(0xff9258c2);
 circleColorModel.setSelectUseOutline(true);
@@ -59,9 +59,9 @@ circleColorModel.setInnerStrokeWidth(0);
 circleColorModel.setInnerStrokeDividerWidth(14);
 circleColorModel.setCircleSelected(true);
 mCircleColorView.setCircleColorModel(circleColorModel);
-...
+```
 布局代码：
-...xml
+```xml
 <com.smart.colorview.normal.RectangleColorView
 xmlns:rectangle='http://schemas.android.com/apk/res-auto'
 android:layout_width="wrap_content"
@@ -76,9 +76,9 @@ rectangle:rectTickType="auto"
 rectangle:rectangleColor="#9258c2"
 rectangle:rectangleCornerRadius="8dp"
 rectangle:rectangleSelected="true"/>
-...
+```
 java代码
-...java
+```java
 RectangleColorModel rectangleColorModel = new RectangleColorModel();
 rectangleColorModel.setRectangleColor(0xff9258c2);
 rectangleColorModel.setRectangleColorRadius(26);
@@ -89,7 +89,7 @@ rectangleColorModel.setTickDirection(RectangleColorView.TickDirection.RIGHT_BOTT
 rectangleColorModel.setRectShowTick(true);
 rectangleColorModel.setRectSelected(true);
 mRectangleColorView.setRectangleColorModel(rectangleColorModel);
-.....
+```
 
 
 如果喜欢，欢迎star一下，您的star将是我开源路上永久的动力～～
