@@ -4,12 +4,13 @@
 那么我们就得维护多套selector，不能达到复用的效果，因此，我总结几种常见的UI，通过自定义view达到组合及复用的效果。以下列出5中效果图，当然并不局限于这5中效果，通过多种属性的组合，可以实现很多种效果。
 
 效果图：
-<img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot0.png" width = "540" height="960">
-<img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot1.png" width = "540" height="960">
-<img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot2.png" width = "540" height="960">
-<img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot3.png" width = "540" height="960">
-<img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot4.png" width = "540" height="960">
-<img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot5.png" width = "540" height="960">
+
+    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot0.png" width = "540" height="960">
+    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot1.png" width = "540" height="960">
+    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot2.png" width = "540" height="960">
+    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot3.png" width = "540" height="960">
+    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot4.png" width = "540" height="960">
+    <img src = "https://github.com/miaolingzi/SmartColorView/screenshots/Screenshot5.png" width = "540" height="960">
 
 使用方法：
 Grab via maven
@@ -29,6 +30,7 @@ dependencies {
 }
 ...
 
+布局代码：
 ...xml
                 <com.smart.colorview.normal.CircleColorView
                 xmlns:circle="http://schemas.android.com/apk/res-auto"
@@ -44,7 +46,7 @@ dependencies {
                 circle:selectUseFrame="false"
                 circle:selectUseOutline="true"/>
 ...
-
+java代码：
 ...java
         CircleColorModel circleColorModel = new CircleColorModel();
         circleColorModel.setCircleColor(0xff9258c2);
@@ -57,7 +59,7 @@ dependencies {
         circleColorModel.setCircleSelected(true);
         mCircleColorView.setCircleColorModel(circleColorModel);
 ...
-
+布局代码：
 ...xml
                 <com.smart.colorview.normal.RectangleColorView
                 xmlns:rectangle='http://schemas.android.com/apk/res-auto'
@@ -74,7 +76,7 @@ dependencies {
                 rectangle:rectangleCornerRadius="8dp"
                 rectangle:rectangleSelected="true"/>
 ...
-
+java代码
 ...java
         RectangleColorModel rectangleColorModel = new RectangleColorModel();
         rectangleColorModel.setRectangleColor(0xff9258c2);
@@ -87,5 +89,6 @@ dependencies {
         rectangleColorModel.setRectSelected(true);
         mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 .....
+
 
 如果喜欢，欢迎star一下，您的star将是我开源路上永久的动力～～
