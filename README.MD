@@ -1,9 +1,17 @@
+
+# SmartColorView
+
+[![Apache License 2.0][1]][2]
+[![Release Version][30]][31]
+[![PRs Welcome][32]][33]
+[![API][3]][4]
+
 今天是2017年的第一个工作日，就用这个自定义颜色选择控件来纪念下吧～～
 
 相信做过安卓应用的主题切换、富文本编辑器文字颜色切换、画笔颜色切换等项目，都会遇到关于颜色选择的UI，虽然效果很好实现，比如通过selector的形式就很容易，但是如果项目里面有多处关于颜色选择的UI，只是有一点点差别，
 那么我们就得维护多套selector，不能达到复用的效果，因此，我总结几种常见的UI，通过自定义view达到组合及复用的效果。以下列出5中效果图，当然并不局限于这5中效果，通过多种属性的组合，可以实现很多种效果。
 
-效果图：
+# 效果图
 
 <img src = "screenshots/Screenshot0.png" width = "300px" height="533px"/>
 <img src = "screenshots/Screenshot1.png" width = "300px" height="533px"/>
@@ -12,7 +20,9 @@
 <img src = "screenshots/Screenshot4.png" width = "300px" height="533px"/>
 <img src = "screenshots/Screenshot5.png" width = "300px" height="533px"/>
 
-使用方法：
+demo[下载地址](apk/smartcoloview.apk)
+
+# 使用方法
 maven
 
 ```xml
@@ -98,3 +108,36 @@ mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 如果在使用过程中遇到什么问题，欢迎[issue](https://github.com/miaolingzi/SmartColorView/issues)告诉我，我将全力为你解决～～
 
 如果喜欢，欢迎star一下，您的star将是我开源路上永久的动力～～
+
+## About Me
+
+ - **QQ：**645318955
+ - **简书：**[妙铃子](http://www.jianshu.com/users/03ece7ed904a/latest_articles)
+ - **Blog：**[妙铃子](http://blog.csdn.net/miaolingzi)
+ - **Email：**fengjianhui1989@163.com
+
+## License
+```
+Copyright (C) 2017 Jianhui Feng
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+[1]:https://img.shields.io/:license-apache-blue.svg
+[2]:https://www.apache.org/licenses/LICENSE-2.0.html
+[3]:https://img.shields.io/badge/API-19%2B-red.svg?style=flat
+[4]:https://android-arsenal.com/api?level=14
+[30]:https://img.shields.io/badge/release-1.0-red.svg
+[31]:https://github.com/miaolingzi/SmartColorView/releases
+[32]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[33]:https://github.com/miaolingzi/SmartColorView/pulls
