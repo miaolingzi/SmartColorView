@@ -135,7 +135,7 @@ limitations under the License.
 
 [1]:https://img.shields.io/:license-apache-blue.svg
 [2]:https://www.apache.org/licenses/LICENSE-2.0.html
-[3]:https://img.shields.io/badge/API-19%2B-red.svg?style=flat
+[3]:https://img.shields.io/badge/API-14%2B-red.svg?style=flat
 [4]:https://android-arsenal.com/api?level=14
 [30]:https://img.shields.io/badge/release-1.0-red.svg
 [31]:https://github.com/miaolingzi/SmartColorView/releases
