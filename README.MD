@@ -112,7 +112,6 @@ mRectangleColorView.setRectangleColorModel(rectangleColorModel);
 ## About Me
 
  - **QQ：**645318955
- - **简书：**[妙铃子](http://www.jianshu.com/users/03ece7ed904a/latest_articles)
  - **Blog：**[妙铃子](http://blog.csdn.net/miaolingzi)
  - **Email：**fengjianhui1989@163.com
 
